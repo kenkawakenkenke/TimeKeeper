@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.ResultsArea {
+/*   font-size: large; */
+}
+
+.Content {
+/*   font-size: large; */
+}
+
+.Activities {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 8px;
+}
+.Activity {
+  padding: 4px;
+}
+
+.activityButton {
+  font-size: 2em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
